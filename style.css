@@ -33,7 +33,7 @@ html {
 .todo img {
     width: 40px;
     height: 40px;
-    padding-top: 12px;
+    padding-left: 5px;
 }
 
 .roww {
@@ -55,7 +55,7 @@ html {
 }
 
 .roww button {
-    background-color: orange;
+    background-color: rgb(255, 190, 70);
     border: none;
     outline: none;
     height: 40px;
@@ -109,12 +109,11 @@ ul li span {
 ul li span:hover {
     background-color: aliceblue;
 }
-
 @media(max-width: 1200px) {
     .containerr {
         height: 68vh;
     }
     .todo {
-        margin: 50px auto 10px;
+        margin: 80px auto 10px;
     }
 }
