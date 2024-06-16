@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +9,7 @@
 
 .containerr {
     width: 100%;
-    height: 100vh;
+    height: 98vh;
     padding: 10px;
     background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
 }
@@ -105,4 +108,13 @@ ul li span {
 
 ul li span:hover {
     background-color: aliceblue;
+}
+
+@media(max-width: 1200px) {
+    .containerr {
+        height: 68vh;
+    }
+    .todo {
+        margin: 50px auto 10px;
+    }
 }
